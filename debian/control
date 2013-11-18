@@ -1,0 +1,12 @@
+Source: ros-hydro-open-controllers-interface
+Section: misc
+Priority: extra
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-diagnostic-msgs, ros-hydro-diagnostic-updater, ros-hydro-pr2-controller-manager, ros-hydro-realtime-tools, ros-hydro-roscpp, ros-hydro-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-open-controllers-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-msgs, ros-hydro-diagnostic-updater, ros-hydro-pr2-controller-manager, ros-hydro-realtime-tools, ros-hydro-roscpp, ros-hydro-std-srvs
+Description: open_controllers_interface

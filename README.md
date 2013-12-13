@@ -1,3 +1,0 @@
-Open Industrial ROS Controllers
-===============================
-

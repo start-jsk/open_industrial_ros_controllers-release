@@ -1,0 +1,12 @@
+Source: ros-indigo-open-industrial-ros-controllers
+Section: misc
+Priority: extra
+Maintainer: Ryohei Ueda <ueda@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/open_industrial_ros_controllers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-open-industrial-ros-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-open-controllers-interface
+Description: This package provides common functionality, especially plugin architecture for industrial robot controllers, much like the one in pr2_mechanism. The plan is in the near future to utilize or integrate with existing other controller packages.

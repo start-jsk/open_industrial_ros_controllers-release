@@ -1,3 +1,26 @@
+## open_industrial_ros_controllers (indigo) - 1.1.0-0
+
+The packages in the `open_industrial_ros_controllers` repository were released into the `indigo` distro by running `/usr/bin/bloom-release open_industrial_ros_controllers --track indigo --rosdistro indigo` on `Fri, 30 Oct 2015 15:17:58 -0000`
+
+These packages were released:
+- `open_controllers_interface`
+- `open_industrial_ros_controllers`
+
+Version of package(s) in repository `open_industrial_ros_controllers`:
+- upstream repository: https://github.com/start-jsk/open-industrial-ros-controllers.git
+- release repository: https://github.com/start-jsk/open_industrial_ros_controllers-release.git
+- rosdistro version: `0.1.4-0`
+- old version: `1.0.0-0`
+- new version: `1.1.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## open_industrial_ros_controllers (indigo) - 0.1.4-0
 
 The packages in the `open_industrial_ros_controllers` repository were released into the `indigo` distro by running `/usr/bin/bloom-release open_industrial_ros_controllers --track indigo --rosdistro indigo --new-track` on `Fri, 13 Mar 2015 16:08:27 -0000`
